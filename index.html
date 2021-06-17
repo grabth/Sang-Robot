@@ -24,10 +24,9 @@
          <i class="fas fa-bars"></i>
          </label>
          <ul>
-            <li><a class="active" href="#">Home</a></li>
             <li><a href="#tentang">Tentang</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#kontak">Kontak</a></li>
             <li><a target="_blank" href="https://discord.com/oauth2/authorize?client_id=783912518388678677&permissions=4294967287&scope=bot">Undang</a></li>
          </ul>
       </nav>
@@ -43,32 +42,42 @@
                </button>
             </center>
          </section>
-         <div id="tentang">
-            <h1 class="interaksi">Interaksi sosial</h1>
-            <p class="interaksid">Perintah untuk berinteraksi dengan member server lainnya!</p>
-            <img class="slap-img" src="img/ker.jpg" alt="tentang">
-         </div>
-         <div id="meme">
-            <h1 class="memes titmeme">Menggokil !</h1>
-            <p class="memes par">Meme command, Manipulasi gambar, dan masih banyak lagi fitur yang dapat kamu coba!</p>
-            <img class="meme-img" src="img/meme.jpg" alt="meme">
-         </div> 
-         <div id="info">
-            <h1 class="infos infos-t">Informasi</h1>
-            <p class="infos infos-p">Dapatkan informasi mengenai server dan member!</p>
-            <img src="img/info.jpg" alt="Informasi" class="info-img">
-         </div>
-         <div class="last">
+         <section class="sec" id="tentang">
             <center>
-               <h2>Undang BOT</h2>
-               <button class="invite" onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=783912518388678677&permissions=4294967287&scope=bot';">
-                  Undang
-                  <i class="fa fa-angle-right kerk" aria-hidden="true"></i>
+               <h1>Apa itu Sang Robot?</h1>
+               <p>Bot Discord berbahasa Indonesia dengan fitur-fitur yang menggokil ;)<br><a href="#">Cek command</a> | <a href="https://discord.gg/SNG7YxK/">Join Komunitas</a></p>
             </center>
-         </div>
+         </section>
+         <section class="faq" id="faq">
+            <h2 class="faq-t">Punya pertanyaan? scroll kebawah!</h2>
+            <button class="accordion">Dalam bahasa pemrograman apa Sang Robot ditulis?</button>
+               <div class="panel">
+                  <p>Sang Robot 100% ditulis dalam bahasa <b>Python</b>.</p>
+               </div>
+
+               <button class="accordion">Apakah BOT ini open source?</button>
+               <div class="panel">
+                  <p>Untuk sekarang, <b>tidak</b>. Ingin bot ini open source? Join <a href="https://discord.gg/SNG7YxK/">komunitas</a> kami dan keluarkan usulan kalian</p>
+               </div>
+         </section>
+         <section id="kontak">
+            <div class="kontaka">
+               <h2 style="text-align: center;">Kontak developer</h2>
+               <form action="https://formspree.io/f/xvovekve" method="POST">
+                  <label for="name" class="form-label">Name</label>
+                  <input name="message" type="text" class="form-control" id="name" aria-describedby="name">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" name="_replyto" class="form-control" id="email" placeholder="name@example.com" aria-describedby="email">
+                  <label for="pesan" class="form-label">Message</label>
+                  <textarea name="message" class="form-control" id="pesan" rows="3"></textarea>
+                  <input type="submit" value="Submit">
+               </form>
+            </div>
+         </section>
       </main>
       <footer>
-         Dibuat oleh Haris (grabth)
+         <p>Dibuat oleh Haris (grabth)</p>
       </footer>
+      <script src="js/script.js"></script>
    </body>
 </html>
