@@ -16,4 +16,4 @@ Pull requests diperbolehkan. Untuk perubahan besar, silakan buka masalah terlebi
 Pastikan untuk memperbarui tes yang sesuai.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/grabth/SangRobot-Website-revamp/blob/main/LICENSE)
