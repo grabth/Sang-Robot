@@ -34,6 +34,9 @@ p {
 a {
   text-decoration: none;
 }
+.foot-link {
+  color: aqua;
+}
 h1 {
   letter-spacing: .5px;
 }
@@ -159,7 +162,7 @@ input[type="checkbox"]{
 }
 
 main{
-  padding-top: 10rem;
+  padding-top: 5rem;
   padding-bottom: 18rem;
 }
 
@@ -342,17 +345,23 @@ input[type=email], select {
 
 input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #111;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #fff;
+  color: #111;
+}
+
+input[type=submit]:focus {
+  border-color: #111;
 }
 
 #kontak {
