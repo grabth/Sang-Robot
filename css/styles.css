@@ -75,7 +75,7 @@ nav ul li a{
   letter-spacing: 1px;
   transition: all 0.3s ease;
 }
-nav ul li a.active,
+nav ul li a.active-li,
 nav ul li a:hover{
   color: #111;
   background: #fff;
@@ -129,7 +129,7 @@ input[type="checkbox"]{
   #click:checked ~ ul li a{
     margin-left: 0px;
   }
-  nav ul li a.active,
+  nav ul li a.active-li,
   nav ul li a:hover{
     background: none;
     color: cyan;
@@ -204,68 +204,6 @@ main{
   padding-bottom: 16rem;
 }
 
-.interaksid, .interaksi  {
-  padding-left: 4rem;
-}
-
-.slap-img {
-  position: absolute;
-  border-radius: 15px;
-  width: 550px;
-  height: 300px;
-  right: 0%;
-  left: 60%;
-  top: 100%;
-  z-index: none;
-}
-
-.memes {
-  text-align: right;
-  padding-right: 4rem;
-  top: 140%;
-}
-
-.meme-img {
-  position: absolute;
-  border-radius: 15px;
-  left: 5%;
-  top: 170%;
-  width: 500px;
-  height: 700px;
-}
-
-.par {
-  padding-bottom: 20rem;
-}
-
-.titmeme {
-  padding-top: 24rem;
-}
-
-.info-img {
-  border-radius: 15px;
-  position: absolute;
-  right: 5%;
-  top: 290%;
-}
-
-.infos-t {
-  padding-top: 24rem;
-}
-
-.infos-p {
-  padding-bottom: 16rem;
-}
-
-.infos {
-  padding-left: 4rem;
-}
-
-.last {
-  padding-top: 11rem;
-  padding-bottom: 4rem;
-}
-
 footer {
   height: 8rem;
   text-align: center;
@@ -287,6 +225,7 @@ footer {
 
 .accordion {
   background-color: #eee;
+  font-weight: bold;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -295,9 +234,8 @@ footer {
   text-align: left;
   outline: none;
   font-size: 15px;
-  transition: 0.4s;
   margin: 10px 0;
-  font-weight: bold;
+  transition: 0.4s;
 }
 
 .active, .accordion:hover {
@@ -307,8 +245,13 @@ footer {
 .accordion:after {
   content: '\002B';
   color: #777;
+  font-weight: bold;
   float: right;
   margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
 }
 
 .panel {
@@ -381,4 +324,34 @@ textarea {
 
 section {
   padding-top: 5rem;
+}
+
+.main-command {
+  padding-top: 10rem;
+}
+
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+  /* Style the navigation menu */
+  #myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+  /* Style the navigation links */
+  #myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+  #myMenu li a:hover {
+  background-color: #eee;
 }

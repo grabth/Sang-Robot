@@ -1,0 +1,165 @@
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <title>Sang Robot - Perintah</title>
+        <link rel="shortcut icon" type="image/x-icon" href="img/sangroboticon.ico">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://kit.fontawesome.com/c98882d4a4.js" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav class="navbar navbar-per">
+            <div class="logo">
+               <a href='' style="text-decoration: none; color: #ffff;">Sang Robot</a>
+            </div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+               <li><a href="https://grabth.github.io/Sang-Robot/">Beranda</a></li>
+               <li><a href="#tentang">Tentang</a></li>
+               <li><a class="active-li" href="perintah">Perintah</a></li>
+               <li><a target="_blank" href="https://discord.com/oauth2/authorize?client_id=783912518388678677&permissions=4294967287&scope=bot">Undang</a></li>
+            </ul>
+        </nav>
+        <section class="main-command">
+            <h2 class="faq-t">Perintah pada Sang Robot</h2>
+
+            <section class="command">
+               <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Cari perintah.." title="Type in a category">
+
+               <ul id="myMenu">
+                  <li><a href="#" class="accordion">owhhelp</a>
+                     <div class="panel">
+                        <p><b>About :</b> Menunjukkan semua perintah pada BOT.</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhsay</a>
+                     <div class="panel">
+                        <p><b>About :</b> Mengirim ulang pesan.</p>
+                        <p><b>Penggunaan :</b> owhsay {pesan}</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhmeme</a>
+                     <div class="panel">
+                        <p><b>About :</b> Mengirim meme dari Reddit.</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhnanya</a>
+                     <div class="panel">
+                        <p><b>About :</b> Perintah untuk bertanya kepada BOT.</p>
+                        <p><b>Penggunaan :</b> owhnanya {pertanyaan}</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhgif</a>
+                     <div class="panel">
+                        <p><b>About :</b> Perintah untuk mencari GIF.</p>
+                        <p><b>Penggunaan :</b> owhgif {nama}</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhimage</a>
+                     <div class="panel">
+                        <p><b>About :</b> Perintah untuk mencari GIF.</p>
+                        <p><b>Penggunaan :</b> owhimage {nama}</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhimage</a>
+                     <div class="panel">
+                        <p><b>About :</b> Perintah untuk mencari GIF.</p>
+                        <p><b>Penggunaan :</b> owhimage {nama}</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhpoll</a>
+                     <div class="panel">
+                        <p><b>About :</b> Perintah untuk membuat poll.</p>
+                        <p><b>Penggunaan :</b> owhpoll {poll}</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhiq</a>
+                     <div class="panel">
+                        <p><b>About :</b> Menampilkan IQ member dan pengguna😏</p>
+                        <p><b>Penggunaan :</b> owhiq @member</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhsend</a>
+                     <div class="panel">
+                        <p><b>About :</b> Membuat bot mengirimu pesan melalui DM</p>
+                        <p><b>Penggunaan :</b> owhsend {pesan}</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhwanted</a>
+                     <div class="panel">
+                        <p><b>About :</b> Manipulasi gambar bertema 'wanted' dengan foto profil member.</p>
+                        <p><b>Penggunaan :</b> owhwanted @member</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhrip</a>
+                     <div class="panel">
+                        <p><b>About :</b> Manipulasi gambar bertema 'RIP' dengan foto profil member.</p>
+                        <p><b>Penggunaan :</b> owhrip @member</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhvote</a>
+                     <div class="panel">
+                        <p><b>About :</b> Mengirim link untuk upvote bot.</p>
+                        <p><b>Penggunaan :</b> owhvote</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhavatar</a>
+                     <div class="panel">
+                        <p><b>About :</b> Menampilkan avatar user.</p>
+                        <p><b>Penggunaan :</b> owhavatar @member</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhcovid</a>
+                     <div class="panel">
+                        <p><b>About :</b> Menampilkan status virus COVID-19 di berbagai negara.</p>
+                        <p><b>Penggunaan :</b> owhcovid {negara}</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhlatency</a>
+                     <div class="panel">
+                        <p><b>About :</b> Menampilkan latency BOT.</p>
+                        <p><b>Penggunaan :</b> owhlatency</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhhapus</a>
+                     <div class="panel">
+                        <p><b>About :</b> menghapus pesan</p>
+                        <p><b>Penggunaan :</b> owhhapus {angka}</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhdm</a>
+                     <div class="panel">
+                        <p><b>About :</b> Mengirim pesan kepada pengguna lainnya</p>
+                        <p><b>Penggunaan :</b> owhdm @member</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhsiapa</a>
+                     <div class="panel">
+                        <p><b>About :</b> Melihat info seputar member</p>
+                        <p><b>Penggunaan :</b> owhsiapa @member</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhtext</a>
+                     <div class="panel">
+                        <p><b>About :</b> Ketik apapun di gambar!</p>
+                        <p><b>Penggunaan :</b> owhtext {teks}</p>
+                     </div>
+                  </li>
+                  <li><a href="#" class="accordion">owhswag</a>
+                     <div class="panel">
+                        <p><b>About :</b> SWAGGG 😱</p>
+                        <p><b>Penggunaan :</b> owhswag</p>
+                     </div>
+                  </li>
+               </ul>
+            </section>
+        </section>
+        <script src="js/script.js"></script>
+    </body>
+</html>
