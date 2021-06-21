@@ -354,3 +354,7 @@ section {
   #myMenu li a:hover {
   background-color: #eee;
 }
+
+.errpage {
+  text-align: center;
+}
